@@ -1,5 +1,7 @@
 #box1 {
-    display: block; 
+    display: none;
+    
+    z-index: -5; 
     border:solid 5px; 
     border-color: darkslategrey; 
     margin: auto; 
@@ -23,4 +25,13 @@
     margin: auto;
     border: 2px blue solid;
     border-radius: 5px;
+}
+
+#box2 {
+    z-index: 2;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+   
+
 }
